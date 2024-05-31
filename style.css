@@ -1,0 +1,55 @@
+body {
+    background-color: #142d4c;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #385170;
+    color: #ececec;
+    padding: 20px 0;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    padding: 15px;
+    color: #ececec;
+}
+
+hr {
+    width: 285px;
+}
+
+button {
+    background-color: #9fd3c7;
+    border: none;
+    color: #142d4c;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #ececec;
+}
+
+#dogpic ,
+#helloworld,
+#javascriptimg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+#dogpic img,
+#helloworld img,
+#javascriptimg img {
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
